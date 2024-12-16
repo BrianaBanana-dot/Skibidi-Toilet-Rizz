@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Briana's Interactive Resume</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+</head>
+<body>
+  <div class="navbar">
+        <button id="language-toggle" onclick="toggleLanguage()">Español</button>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="darkModeToggle" class="dark-mode-btn">Dark Mode</button>
+    </div>
+    <section id="home">
+        <h1 data-en="Welcome to My Interactive Resume" data-es="Bienvenido a mi Currículum Interactivo">Welcome to My Interactive Resume</h1>
+        <div class="content-wrapper">
+            <p data-en="Hi, I'm Briana! I'm 16 years old and excited to share a bit about myself with you. I'm passionate about learning new things, exploring technology, and using my creativity to solve problems. I believe that every challenge is an opportunity for growth, and I'm constantly working on improving my skills. Whether it's coding, graphic design, or community service, I'm always seeking new ways to learn and make a positive impact. On this page, you'll find my experiences, projects, and the things that inspire me. Thanks for stopping by!" data-es="¡Hola, soy Briana! Tengo 16 años y estoy emocionada de compartir un poco sobre mí. Me apasiona aprender cosas nuevas, explorar la tecnología y usar mi creatividad para resolver problemas. Creo que cada desafío es una oportunidad para crecer, y siempre estoy trabajando en mejorar mis habilidades. Ya sea programando, diseñando gráficos o prestando servicios a la comunidad, siempre busco nuevas formas de aprender y tener un impacto positivo. En esta página, encontrarás mis experiencias, proyectos y las cosas que me inspiran. ¡Gracias por visitar!">Hi, I'm Briana! I'm 16 years old and excited to share a bit about myself with you. I'm passionate about learning new things, exploring technology, and using my creativity to solve problems. I believe that every challenge is an opportunity for growth, and I'm constantly working on improving my skills. Whether it's coding, graphic design, or community service, I'm always seeking new ways to learn and make a positive impact. On this page, you'll find my experiences, projects, and the things that inspire me. Thanks for stopping by!</p>
+            <img src="https://codehs.com/uploads/8eaad540c657880612c3989d414f026e" alt="Briana's Photo" class="profile-image">
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 data-en="About Section" data-es="Sección Acerca de">About Section</h1>
+        <div class="content-wrapper">
+            <p data-en="Hi, my name is Briana, and I am a junior in high school with a passion for martial arts among many other things. Over the years, from 3 years old to now, I've had the opportunity to learn and grow in martial arts, which has helped me develop skills in discipline and my mental well-being. One of the things I enjoy most is playing video games and coding (I actually coded this page) because it allows me to see a tangible result that I can change with effort over time. Throughout my life, I've been inspired by my parents, and I'm always looking for ways to prove to people who say I can't, that I can. I believe that you can dream of something, but to really obtain your goals, you must work hard. This mindset keeps me motivated to pursue new challenges and grow as a person. Some of my future goals include going into the Air Force as an officer, as well as entering the medical field later on. I am excited to continue working toward my goals as I gain more experience. Thank you for taking the time to learn a little bit more about me. I look forward to connecting with others who are dedicated and passionate, just like me, to collaborate with." data-es="Hola, mi nombre es Briana y soy estudiante de secundaria con una pasión por las artes marciales, entre otras cosas. A lo largo de los años, desde los 3 años hasta ahora, he tenido la oportunidad de aprender y crecer en las artes marciales, lo que me ha ayudado a desarrollar habilidades en disciplina y bienestar mental. Una de las cosas que más disfruto es jugar videojuegos y programar (De hecho, programé esta página), porque me permite ver un resultado tangible que puedo cambiar con esfuerzo a lo largo del tiempo. A lo largo de mi vida, he sido inspirada por mis padres y siempre estoy buscando formas de demostrar a las personas que dicen que no puedo, que sí puedo. Creo que puedes soñar con algo, pero para realmente alcanzar tus metas, debes trabajar duro. Esta mentalidad me mantiene motivada para enfrentar nuevos desafíos y crecer como persona. Algunos de mis objetivos futuros incluyen ingresar a la Fuerza Aérea como oficial, así como ingresar al campo médico más adelante. Estoy emocionada de seguir trabajando para alcanzar mis metas a medida que adquiero más experiencia. Gracias por tomarte el tiempo de conocer un poco más sobre mí. Espero conectar con otras personas dedicadas y apasionadas, como yo, para colaborar.">Hi, my name is Briana, and I am a junior in high school with a passion for martial arts among many other things. Over the years, from 3 years old to now, I've had the opportunity to learn and grow in martial arts, which has helped me develop skills in discipline and my mental well-being. One of the things I enjoy most is playing video games and coding (I actually coded this page) because it allows me to see a tangible result that I can change with effort over time. Throughout my life, I've been inspired by my parents, and I'm always looking for ways to prove to people who say I can't, that I can. I believe that you can dream of something, but to really obtain your goals, you must work hard. This mindset keeps me motivated to pursue new challenges and grow as a person. Some of my future goals include going into the Air Force as an officer, as well as entering the medical field later on. I am excited to continue working toward my goals as I gain more experience. Thank you for taking the time to learn a little bit more about me. I look forward to connecting with others who are dedicated and passionate, just like me, to collaborate with.</p>
+            <img src="https://codehs.com/uploads/83816b9a572fc64052a6ec674e3aa815" alt="Briana's Photo" class="profile-image">
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 data-en="Experience" data-es="Experiencia">Experience</h1>
+        <div class="content-wrapper">
+            <p data-en="I may only be 16, but I have many experiences in work environments. I've taught martial arts for 5 years to an age range of 3-90. I deal with money as I finance appointments at the said location. I also know how to facilitate bad situations due to my exposure in customer service. I also tutor, so I am excellent in one-on-one scenarios. I maintain an above 4.0 gpa, and am very ambitious academically. I am fully dedicated to my workplace and the people I work with. My goal is to provide the best service while maintaining a healthy work-life balance. Thank you for reading my resume!" data-es="Puede que solo tenga 16 años, pero tengo muchas experiencias en entornos laborales. He enseñado artes marciales durante 5 años a personas de entre 3 y 90 años. Trato con dinero ya que financio las citas en dicho lugar. También sé cómo facilitar situaciones difíciles debido a mi exposición en servicio al cliente. También doy tutorías, por lo que soy excelente en escenarios uno a uno. Mantengo un GPA superior a 4.0, y soy muy ambiciosa académicamente. Estoy completamente dedicada a mi lugar de trabajo y a las personas con las que trabajo. Mi objetivo es proporcionar el mejor servicio mientras mantengo un equilibrio saludable entre el trabajo y la vida personal. ¡Gracias por leer mi currículum!">I may only be 16, but I have many experiences in work environments. I've taught martial arts for 5 years to an age range of 3-90. I deal with money as I finance appointments at the said location. I also know how to facilitate bad situations due to my exposure in customer service. I also tutor, so I am excellent in one-on-one scenarios. I maintain an above 4.0 GPA, and am very ambitious academically. I am fully dedicated to my workplace and the people I work with. My goal is to provide the best service while maintaining a healthy work-life balance. Thank you for reading my resume!</p>
+            <img src="https://codehs.com/uploads/79da41c4d34a84efda78a72a91a4b62a" alt="Briana's Photo" class="profile-image">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 data-en="Contact Me" data-es="Contáctame">Contact Me</h1>
+        <div class="contact-info">
+            <p data-en="Email: briana.jacobo@sgv.csarts.net" data-es="Correo electrónico: briana.jacobo@sgv.csarts.net">Email: briana.jacobo@sgv.csarts.net</p>
+            <p data-en="Phone: (626) 633-7099" data-es="Teléfono: (626) 633-7099">Phone: (626) 633-7099</p>
+        </div>
+        <form>
+            <div>
+                <label for="user_name" data-en="Name" data-es="Nombre">Name</label>
+                <input type="text" id="user_name" name="user_name" required>
+            </div>
+            <div>
+                <label for="user_email" data-en="Email" data-es="Correo electrónico">Email</label>
+                <input type="email" id="user_email" name="user_email" required>
+            </div>
+            <div>
+                <label for="user_message" data-en="Message" data-es="Mensaje">Message</label>
+                <textarea id="user_message" name="user_message" rows="5" required></textarea>
+            </div>
+            <button type="submit" data-en="Send Message" data-es="Enviar mensaje">Send Message</button>
+        </form>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <button id="backToTop" title="Back to top" data-en="Back to top" data-es="Volver arriba">Back to top</button>
+</body>
+</html>
+ 
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src = "resume-animations.js"></script>
+</body>
